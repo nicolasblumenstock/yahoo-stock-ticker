@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Stock Ticker</title>
+	<title>Tick Tock. Tick Tock.</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -15,9 +15,50 @@
 
 </head>
 <body>
+<div id="pages">
 
+	<div id="page1">
+		<div id='arrow1'>
+			>>>
+		</div>	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Yahoo Stock Ticker</h1>
+					<form class="yahoo-finance-form form-inline">
+						<label class="sr-only">Stock Symbol</label>
+						<div class="input-group">
+							<input type="text" class="form-control" id="symbol" placeholder="Please Enter Symbols" />
+							<button type="submit" class="btn btn-success">Get Me Some Good News</button>
+							<button type="button" class="btn btn-warning" id="savior">save me</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<table class="table table-striped table-bordered">
+					<thead>
+						<tr>
+							<th>Stock Symbol</th>
+							<th>Company Name</th>
+							<th>Ask Price</th>
+							<th>Bid Price</th>
+							<th>Daily Change</th>
+						</tr>
+					</thead>
+					<tbody id="stock-ticker-body">
+					</tbody>
+				</table>
+			</div>
+		</div>
 
-
-
+	</div>
+	<div id="page2">	
+		<h1>this is a thing</h1>
+		<div id="arrow2">
+			<<<
+		</div>	
+	</div>
+</div>
 </body>
 </html>

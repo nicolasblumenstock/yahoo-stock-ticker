@@ -1,0 +1,45 @@
+h1 {
+	color: tomato;
+}
+
+.col-sm-12{
+	margin-bottom: 15px;
+}
+
+
+body{
+	overflow: hidden;
+}
+
+#pages{
+	width: 200vw;
+}
+
+#page1, #page2{
+	width: 100vw;
+	height: 100vh;
+	float: left;
+	position: relative;
+	right: 0px;
+	transition: all 3s ease;
+}
+
+#arrow1, #arrow2{
+	position: absolute;
+	top: 50%;
+	background-color: red;
+	color: white;
+	height: 50px;
+	width: 50px;
+	font-size: 40px;
+}
+
+#arrow1{
+	right: 0px;
+}
+
+#arrow2{
+	left: 0px;
+}
+
+
